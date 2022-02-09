@@ -7,7 +7,7 @@ public:
             if((a>INT_MAX/10)||(a<INT_MIN/10)){
                 return 0;
             }
-            a=a*10+r;
+            a=(a*10)+r;
             x=x/10;
         }
         return a;
