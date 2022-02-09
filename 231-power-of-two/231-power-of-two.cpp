@@ -5,12 +5,12 @@ public:
         for (int i=0; i<31;i++ ){
             // ans=pow(2,i);
             if(ans == n){
-                return 1;
+                return true;
             }
             if(ans < INT_MAX/2)
              ans = ans * 2;
             
         }
-        return 0;
+        return false;
     }
 };
