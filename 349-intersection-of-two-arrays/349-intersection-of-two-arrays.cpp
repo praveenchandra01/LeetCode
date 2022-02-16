@@ -4,7 +4,7 @@ public:
         sort(nums1.begin(),nums1.end());
         sort(nums2.begin(),nums2.end());
         int i=0,j=0,n=nums1.size(),m=nums2.size();
-        unordered_set<int> s;
+        set<int> s;
         while(i<n && j<m){
             if(nums1[i]==nums2[j]){
                 if(s.find(nums1[i])==s.end()){
