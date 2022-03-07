@@ -7,11 +7,11 @@ public:
             m = s + (e-s)/2;
             long long int sqr = m*m;
             if(sqr==n) return m;
-            else if(sqr >n) e=m-1;
-            else {
+            else if(sqr < n){
                 ans = m;
                 s = m+1;
-            }
+            } 
+            else e = m-1;
         }
         return ans;
     }
