@@ -11,7 +11,7 @@ public:
                 ans = m;
                 s = m+1;
             } 
-            else e = m-1;
+            else {e = m-1;}
         }
         return ans;
     }
