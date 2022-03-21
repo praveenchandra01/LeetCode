@@ -11,7 +11,7 @@ public:
     
     bool isPalindrome(string s) {
         int st=0;
-        int e=s.size()-1;
+        int e=s.length()-1;
         while(st<=e){
             if(!is_valid(s[st])){
                 st++;
