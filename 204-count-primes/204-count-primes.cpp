@@ -12,6 +12,6 @@ public:
                 prime[j]=false;
             }
         }
-  return c;
+        return c;
     }
 };
