@@ -4,11 +4,6 @@ public:
     int i=0,j=0;
     list<int> l;
     vector<int> v;
-
-    // if(nums.size()==1){
-    //   v.push_back(1);  
-    //  return v;
-    // }
         
     while(j<nums.size()){
 
@@ -22,7 +17,7 @@ public:
             if(l.front()==nums[i]) l.pop_front();
             i++;j++;
         }
-    }
+      }
     return v;
     }
 };
