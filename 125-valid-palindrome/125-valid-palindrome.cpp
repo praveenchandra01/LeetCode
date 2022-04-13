@@ -22,7 +22,7 @@ public:
                 continue;
             }
             if(tolower(s[st])!=tolower(s[e])) return false;
-            else st++;e--;
+             st++;e--;
         }
         return true;
     }
