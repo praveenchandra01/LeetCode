@@ -5,6 +5,7 @@ public:
             for(int j=i+1;j<nums.size();j++){
                 if(nums[i]>nums[j] && i%2==0 && j%2==0)
                     swap (nums[i],nums[j]);
+              
                 
                 else if(nums[i]<nums[j] && i%2!=0 && j%2!=0)
                     swap (nums[i],nums[j]);
