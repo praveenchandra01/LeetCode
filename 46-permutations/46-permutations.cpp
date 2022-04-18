@@ -12,8 +12,6 @@ class Solution {
             // backtrack
             swap(nums[i],nums[idx]);
         }
-        
-        
     }
     
 public:
