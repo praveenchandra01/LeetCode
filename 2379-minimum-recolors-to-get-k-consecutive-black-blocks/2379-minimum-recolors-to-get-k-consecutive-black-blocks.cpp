@@ -8,13 +8,12 @@ public:
         if(s[i]=='W') count++;
     }
     ans = count;
-    for(int i=k;i<s.length();i++){
         
-         if(s[i-k]=='W') count--;
+    for(int i=k;i<s.length();i++){
+        if(s[i-k]=='W') count--;
         if(s[i]=='W') count++;
-      
         ans= min(ans, count);
      }
-    return ans;
+        return ans;
     }
 };
